@@ -28,6 +28,8 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<!-- Security fix: Tomcat CVE-2026-65905 and related advisories. Remove once Spring Boot ships Tomcat 11.0.25+ -->
+		<tomcat.version>11.0.25</tomcat.version>
 	</properties>
 	<dependencies>
 		<dependency>
